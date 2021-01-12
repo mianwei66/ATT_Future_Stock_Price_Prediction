@@ -25,7 +25,7 @@ By the look of this, there's no clear evidance showing that wether it is a seaso
 
 So by calculating the ADF, the P-value is smaller than 0.05. So in our dataset, there is no seasonal affect.
 
-I applied 2 models to this time series: ARIMA and LSTM:
+2 models are applied to this time series: ARIMA and LSTM.
 
-Here are the results for both models:
+
 
