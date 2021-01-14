@@ -15,7 +15,8 @@ Since the close price of everyday is a key feature for the pracise purpose, it i
 
 Also, the volume as a reflection of outside events, it is a very important variable in my model.
 
-2. Let's take a look at the close price over time:
+2. The variable that I'm predicting is close price. 
+   Here is the historical close price over time(daily for the past 36 years):
 
 ![Screenshot](2.png)
 
@@ -25,7 +26,15 @@ By the look of this, there's no clear evidance showing that wether it is a seaso
 
 So by calculating the ADF, the P-value is smaller than 0.05. So in our dataset, there is no seasonal affect.
 
-2 models are applied to this time series: ARIMA and LSTM.
+3. Modeling and Evaluation:
+
+  Two models are applied to this time series.
+  After evaluation using RMSE metrix,
+  the LSTM model which RMSE is 0.2605,
+  out perform the ARIMA model which RMSE is 3.9038
+
+  
+
 
 
 
