@@ -51,7 +51,8 @@ So I calculated the ADF, the P-value is smaller than 0.05. So in our dataset, th
   
    ![Screenshot](Image/6.png)
    
-  The process of LSTM modeling can be found here: 
+  The process of LSTM modeling can be found here: [LSTM](https://github.com/mianwei66/ATT_Future_Stock_Price_Prediction/blob/main/Models/LSTM_MODEL.ipynb)
+  
   the RMSE of LSTM is 0.2605, outperform the ARIMA model and baseline. 
   
   # Prediction using LSTM Model:
