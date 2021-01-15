@@ -7,7 +7,7 @@ Stock price predicting is always one of the most important and polular applicati
 In this study, I'm showing a prediction of future stock price for the top company---AT&T
 
 
-# 1.DATASET OVERLOOK
+# 1.Dataset Overlook
 
 The Dataset that I used are daily data of AT&T stock for the past 36 years, and I download them from Yahoo Finance: https://finance.yahoo.com/quote/T/history?p=T. 
 It contains over 9000 rows and five columns which are: Open price, close price, daily high price, daily low price, and volume.
@@ -19,19 +19,20 @@ Since the close price of everyday is a key feature for the pracise purpose, it i
 Also, the volume as a reflection of outside events, it is a very important variable in my model.
 
 
-
-# 2. The variable that I'm predicting is close price. 
-   Here is the historical close price over time(daily for the past 36 years):
+# 2.Data cleaning and EDA
+The variable that I'm predicting is close price. 
+Here is the historical close price over time(daily for the past 36 years):
 
 ![Screenshot](Image/2.png)
 
 It is very clear that this time series has a trend. 
 
-By the look of this, there's no clear evidance showing that wether it is a seasonal data or not.
+After detrend the data, there's no clear evidance showing that wether it is a seasonal data or not.
+![Screenshot](Image/3.png)
 
-So by calculating the ADF, the P-value is smaller than 0.05. So in our dataset, there is no seasonal affect.
+So I calculated the ADF, the P-value is smaller than 0.05. So in our dataset, there is no seasonal affect.
 
-3. Modeling and Evaluation:
+2. Modeling and Evaluation:
 
   Two models are applied to this time series.
   After evaluation using RMSE metrix,
