@@ -25,22 +25,32 @@ Here is the historical close price over time(daily for the past 36 years):
 
 ![Screenshot](Image/2.png)
 
-It is very clear that this time series has a trend. 
 
-After detrend the data, there's no clear evidance showing that wether it is a seasonal data or not.
+# 3. Modeling and Evaluation:
+  # ARIMA Model:
+  
+  It is very clear that the close price is a trend series. 
+
+  After detrend the data, there's no clear evidance showing that wether it is a seasonal data or not.
 ![Screenshot](Image/3.png)
 
 So I calculated the ADF, the P-value is smaller than 0.05. So in our dataset, there is no seasonal affect.
+  
+  Then I plot the autocorretion and partial autocorrelation.
+  
+  ![Screenshot](Image/4.png)
+  ![Screenshot](Image/5.png)
+  
+  I chose to apply (3,1,3) for (p,d,q) to my ARIMA model after tested for AIC socres.
+  
+  # LSTM Model:
 
-2. Modeling and Evaluation:
-
-  Two models are applied to this time series.
+  
   After evaluation using RMSE metrix,
   the LSTM model which RMSE is 0.2605,
   out perform the ARIMA model which RMSE is 3.9038
   
-  ![Screenshot](Image/4.png)
-  ![Screenshot](Image/5.png)
+ 
   ![Screenshot](Image/6.png)
   ![Screenshot](Image/7.png)
   
