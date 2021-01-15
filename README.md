@@ -43,15 +43,19 @@ So I calculated the ADF, the P-value is smaller than 0.05. So in our dataset, th
   
   I chose to apply (3,1,3) for (p,d,q) to my ARIMA model after tested for AIC socres.
   
+  And the RMSE score for ARIMA is is 3.9038, which is better than the baseline.
+  
   # LSTM Model:
-
   
-  After evaluation using RMSE metrix,
-  the LSTM model which RMSE is 0.2605,
-  out perform the ARIMA model which RMSE is 3.9038
+  When applying LSTM model, I created a few more variables based on the date.
   
- 
-  ![Screenshot](Image/6.png)
+   ![Screenshot](Image/6.png)
+   
+  The process of LSTM modeling can be found here: 
+  the RMSE of LSTM is 0.2605, outperform the ARIMA model and baseline. 
+  
+  # Prediction using LSTM Model:
+  
   ![Screenshot](Image/7.png)
   
 
