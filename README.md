@@ -12,7 +12,7 @@ In this study, I'm showing a prediction of future stock price for the top compan
 The Dataset that I used are daily data of AT&T stock for the past 36 years, and I download them from Yahoo Finance: https://finance.yahoo.com/quote/T/history?p=T. 
 It contains over 9000 rows and five columns which are: Open price, close price, daily high price, daily low price, and volume.
 
-![Screenshot](1.png)
+![Screenshot](Image/1.png)
 
 Since the close price of everyday is a key feature for the pracise purpose, it is the value that will be predicted in this study.
 
@@ -23,7 +23,7 @@ Also, the volume as a reflection of outside events, it is a very important varia
 # 2. The variable that I'm predicting is close price. 
    Here is the historical close price over time(daily for the past 36 years):
 
-![Screenshot](2.png)
+![Screenshot](Image/2.png)
 
 It is very clear that this time series has a trend. 
 
