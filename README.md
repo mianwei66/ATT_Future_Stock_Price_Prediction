@@ -38,6 +38,12 @@ So I calculated the ADF, the P-value is smaller than 0.05. So in our dataset, th
   After evaluation using RMSE metrix,
   the LSTM model which RMSE is 0.2605,
   out perform the ARIMA model which RMSE is 3.9038
+  
+  ![Screenshot](Image/4.png)
+  ![Screenshot](Image/5.png)
+  ![Screenshot](Image/6.png)
+  ![Screenshot](Image/7.png)
+  
 
   
 
