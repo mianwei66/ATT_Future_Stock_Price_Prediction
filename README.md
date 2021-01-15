@@ -43,7 +43,7 @@ So I calculated the ADF, the P-value is smaller than 0.05. So in our dataset, th
   
   I chose to apply (3,1,3) for (p,d,q) to my ARIMA model after tested for AIC socres.
   
-  The process of ARIMA modeling can be found here: [ARIMA](https://github.com/mianwei66/ATT_Future_Stock_Price_Prediction/blob/main/Models/LSTM_MODEL.ipynb)
+  The process of ARIMA modeling can be found here: [ARIMA](https://github.com/mianwei66/ATT_Future_Stock_Price_Prediction/blob/main/Models/ARIMA_MODEL.ipynb)
   
   And the RMSE score for ARIMA is is 3.9038, which is better than the baseline.
   
